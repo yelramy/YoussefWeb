@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS\u202fvars for fine\u2011tuning */
+:root {
+  --background: #0e0e0e;
+  --foreground: #f1f1f1;
+  --accent:     #00ffff;
+}
+
+body {
+  background: var(--background);
+  color:      var(--foreground);
+}
