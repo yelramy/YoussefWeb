@@ -16,7 +16,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <Typewriter words={["Websites That Don’t Suck."]} />
+        Websites That Don’t Suck.
       </motion.h1>
 
       <motion.p
@@ -25,9 +25,19 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        I build fast, clean sites for home‑service businesses that need to look
-        like pros — not amateurs.
+        I build fast, clean websites for small service businesses — fast.
       </motion.p>
+
+      <motion.div
+        className="text-cyan-400 text-md font-medium"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3, duration: 0.6 }}
+      >
+        <Typewriter
+          words={["plumbers", "HVAC techs", "roofers", "electricians", "landscapers"]}
+        />
+      </motion.div>
 
       <motion.div
         className="flex gap-4"
