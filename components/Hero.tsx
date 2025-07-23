@@ -29,7 +29,7 @@ export default function Hero() {
       </motion.p>
 
       <motion.div
-        className="text-cyan-400 text-md font-medium"
+        className="text-accent text-md font-medium"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.6 }}
@@ -47,7 +47,7 @@ export default function Hero() {
       >
         <Link
           href="#case"
-          className="px-6 py-3 rounded-xl bg-accent text-dark font-semibold hover:opacity-90 transition"
+          className="px-6 py-3 rounded-xl bg-gradient-to-r from-accent-orange to-accent text-dark font-semibold hover:opacity-90 transition"
         >
           See Example
         </Link>
