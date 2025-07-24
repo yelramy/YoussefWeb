@@ -8,7 +8,10 @@ const sora  = Sora({ subsets: ["latin"], weight: ["400", "600", "700"], variable
 export const metadata = {
   title:       "Websites That Don’t Suck | Youssef El Ramy",
   description: "Fast, clean websites for home‑service businesses.",
-  keywords:    ["web design", "plumber", "HVAC", "Next.js", "Tailwind CSS"]
+  keywords:    ["web design", "plumber", "HVAC", "Next.js", "Tailwind CSS"],
+  icons: {
+    icon: "/logoSite.png"
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
