@@ -25,7 +25,7 @@ export default function CaseStudy() {
           transition={{ duration: 0.6 }}
         >
           <Image
-            src="/precision-drains-thumbnail.jpg"
+            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
             alt="Precision Drains LLC website"
             width={800}
             height={600}

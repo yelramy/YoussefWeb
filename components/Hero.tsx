@@ -25,7 +25,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        I build fast, clean websites for small service businesses — fast.
+        I build clean websites for small service businesses — fast.
       </motion.p>
 
       <motion.div
