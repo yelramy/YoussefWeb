@@ -13,7 +13,7 @@ export default function NavBar() {
     <nav className="fixed top-0 w-full backdrop-blur bg-dark/60 border-b border-gray-800 z-50">
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
         <a href="#" className="font-heading text-lg font-bold text-light">
-          <img src="/logoSite.png" alt="SiteDrill Logo" className="h-8 w-auto" />
+          <img src="/logoSite.png" alt="SiteDrill Logo" className="h-20 ml-2 drop-shadow-2xl" />
         </a>
         <ul className="flex gap-6">
           {links.map(({ href, label }) => (
